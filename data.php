@@ -4,12 +4,12 @@
 $badword = $_GET["badword"];
 $message = $_GET["message"];
 
-var_dump($_GET);
+// var_dump($_GET);
 // visualizzo i dati 
 echo "PAROLA DA CENSURARE:" . $badword . "<br><br>";
 echo "MESSAGGIO:" . $message . "<br><br>";
 
-echo strlen($message);
+echo "LA LUNGHEZZA DEL MESSAGGIO è:" . strlen($message) . "<br>";
 
 // funzione che sostituisce la parola "inserita" con il valore desiderato
 // valore1 : parola da sotituire
